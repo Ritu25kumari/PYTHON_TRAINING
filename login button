@@ -1,0 +1,5 @@
+from tkinter import Button, Tk
+root=Tk()
+b1=Button(root,text="login",fg="red")
+b1.place(x=5,y=5)
+root.mainloop()
